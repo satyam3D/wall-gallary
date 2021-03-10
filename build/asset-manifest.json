@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wall-gallary/static/css/main.4d2fe481.chunk.css",
+    "main.js": "/wall-gallary/static/js/main.94bf8666.chunk.js",
+    "main.js.map": "/wall-gallary/static/js/main.94bf8666.chunk.js.map",
+    "runtime-main.js": "/wall-gallary/static/js/runtime-main.25c8e575.js",
+    "runtime-main.js.map": "/wall-gallary/static/js/runtime-main.25c8e575.js.map",
+    "static/js/2.35b6c1bc.chunk.js": "/wall-gallary/static/js/2.35b6c1bc.chunk.js",
+    "static/js/2.35b6c1bc.chunk.js.map": "/wall-gallary/static/js/2.35b6c1bc.chunk.js.map",
+    "static/js/3.0d8a9bb2.chunk.js": "/wall-gallary/static/js/3.0d8a9bb2.chunk.js",
+    "static/js/3.0d8a9bb2.chunk.js.map": "/wall-gallary/static/js/3.0d8a9bb2.chunk.js.map",
+    "index.html": "/wall-gallary/index.html",
+    "static/css/main.4d2fe481.chunk.css.map": "/wall-gallary/static/css/main.4d2fe481.chunk.css.map",
+    "static/js/2.35b6c1bc.chunk.js.LICENSE.txt": "/wall-gallary/static/js/2.35b6c1bc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25c8e575.js",
+    "static/js/2.35b6c1bc.chunk.js",
+    "static/css/main.4d2fe481.chunk.css",
+    "static/js/main.94bf8666.chunk.js"
+  ]
+}
