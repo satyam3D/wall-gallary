@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import axios from "axios";
+import  React, { useEffect, useState } from "react";
+import "./index.css";
 
-function App() {
+export default function App() {
+  const [imgArray, setImgArray] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://www.mocky.io/v2/5ecb5c353000008f00ddd5a0")
+      .then((res) => {
+        console.log("Getting Response: - ", res.data);
+        setImgArray(res.data);
+      })
+      .catch((error) => {
+        console.log("Got error: - ", error);
+      });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="gallery">
+      {imgArray.map((item, index) => {
+        return <img key={index} src={item.urls.regular} alt="flex-gallery" />;
+      })}
     </div>
   );
 }
-
-export default App;
